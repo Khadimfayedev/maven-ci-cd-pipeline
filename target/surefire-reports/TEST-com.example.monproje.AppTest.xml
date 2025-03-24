@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.1" name="com.example.monproje.AppTest" time="0.128" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="22"/>
+    <property name="maven.user.extensions" value="C:\Users\hp/.m2/extensions.xml"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\hp\Desktop\MASTER 1 MICDA\SEMESTRE2\Mise en place d&apos;une chaine DevOps1\Livraison continue avec le gestionnaire de dépôt Nexus\TD\Instalation nexus\mon-projet\target\test-classes;C:\Users\hp\Desktop\MASTER 1 MICDA\SEMESTRE2\Mise en place d&apos;une chaine DevOps1\Livraison continue avec le gestionnaire de dépôt Nexus\TD\Instalation nexus\mon-projet\target\classes;C:\Users\hp\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.11.0\junit-jupiter-api-5.11.0.jar;C:\Users\hp\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\hp\.m2\repository\org\junit\platform\junit-platform-commons\1.11.0\junit-platform-commons-1.11.0.jar;C:\Users\hp\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\hp\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.11.0\junit-jupiter-params-5.11.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="maven.user.toolchains" value="C:\Users\hp/.m2/toolchains.xml"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Etc/GMT+12"/>
+    <property name="java.vm.specification.version" value="22"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="maven.repo.central" value="https://repo.maven.apache.org/maven2"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="FR"/>
+    <property name="session.topDirectory" value="C:\Users\hp\Desktop\MASTER 1 MICDA\SEMESTRE2\Mise en place d&apos;une chaine DevOps1\Livraison continue avec le gestionnaire de dépôt Nexus\TD\Instalation nexus\mon-projet"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-22\bin"/>
+    <property name="sun.java.command" value="C:\Users\hp\AppData\Local\Temp\surefire8587245626202951737\surefirebooter-20250313133926746_3.jar C:\Users\hp\AppData\Local\Temp\surefire8587245626202951737 2025-03-13T13-39-25_788-jvmRun1 surefire-20250313133926746_1tmp surefire_0-20250313133926746_2tmp"/>
+    <property name="maven.project.settings" value="C:\Users\hp\Desktop\MASTER 1 MICDA\SEMESTRE2\Mise en place d&apos;une chaine DevOps1\Livraison continue avec le gestionnaire de dépôt Nexus\TD\Instalation nexus\mon-projet/.mvn/settings.xml"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\hp\Desktop\MASTER 1 MICDA\SEMESTRE2\Mise en place d&apos;une chaine DevOps1\Livraison continue avec le gestionnaire de dépôt Nexus\TD\Instalation nexus\mon-projet\target\test-classes;C:\Users\hp\Desktop\MASTER 1 MICDA\SEMESTRE2\Mise en place d&apos;une chaine DevOps1\Livraison continue avec le gestionnaire de dépôt Nexus\TD\Instalation nexus\mon-projet\target\classes;C:\Users\hp\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.11.0\junit-jupiter-api-5.11.0.jar;C:\Users\hp\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\hp\.m2\repository\org\junit\platform\junit-platform-commons\1.11.0\junit-platform-commons-1.11.0.jar;C:\Users\hp\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\hp\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.11.0\junit-jupiter-params-5.11.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\hp"/>
+    <property name="user.language" value="fr"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-07-16"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-22"/>
+    <property name="maven.user.conf" value="C:\Users\hp/.m2"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\hp\Desktop\MASTER 1 MICDA\SEMESTRE2\Mise en place d&apos;une chaine DevOps1\Livraison continue avec le gestionnaire de dépôt Nexus\TD\Instalation nexus\mon-projet"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="maven.project.conf" value="C:\Users\hp\Desktop\MASTER 1 MICDA\SEMESTRE2\Mise en place d&apos;une chaine DevOps1\Livraison continue avec le gestionnaire de dépôt Nexus\TD\Instalation nexus\mon-projet/.mvn"/>
+    <property name="surefire.real.class.path" value="C:\Users\hp\AppData\Local\Temp\surefire8587245626202951737\surefirebooter-20250313133926746_3.jar"/>
+    <property name="session.rootDirectory" value="C:\Users\hp\Desktop\MASTER 1 MICDA\SEMESTRE2\Mise en place d&apos;une chaine DevOps1\Livraison continue avec le gestionnaire de dépôt Nexus\TD\Instalation nexus\mon-projet"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="22.0.2+9-70"/>
+    <property name="user.name" value="hp"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="maven.installation.conf" value="C:\Users\hp\Downloads\apache-maven-4.0.0-rc-3/conf"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="maven.installation.toolchains" value="C:\Users\hp\Downloads\apache-maven-4.0.0-rc-3/conf/toolchains.xml"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\hp\.m2\repository"/>
+    <property name="maven.project.extensions" value="C:\Users\hp\Desktop\MASTER 1 MICDA\SEMESTRE2\Mise en place d&apos;une chaine DevOps1\Livraison continue avec le gestionnaire de dépôt Nexus\TD\Instalation nexus\mon-projet/.mvn/extensions.xml"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\hp\AppData\Local\Temp\"/>
+    <property name="maven.installation.extensions" value="C:\Users\hp\Downloads\apache-maven-4.0.0-rc-3/conf/extensions.xml"/>
+    <property name="java.version" value="22.0.2"/>
+    <property name="user.dir" value="C:\Users\hp\Desktop\MASTER 1 MICDA\SEMESTRE2\Mise en place d&apos;une chaine DevOps1\Livraison continue avec le gestionnaire de dépôt Nexus\TD\Instalation nexus\mon-projet"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-22\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\app\hp\product\21c\dbhomeXE\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\MinGW\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Users\hp\Desktop\MASTER 1 MICDA\SEMESTRE2\Mise en place d&apos;une chaine DevOps1\Livraison continue avec le gestionnaire de dépôt Nexus\TD\Instalation nexus\apache-maven-4.0.0-rc-3\bin;C:\Users\hp\Downloads\apache-maven-4.0.0-rc-3\bin;C:\Users\hp\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\hp\AppData\Local\Programs\Python\Python312\;C:\Users\hp\AppData\Local\Microsoft\WindowsApps;C:\Users\hp\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\CLion 2024.1.5\bin;;C:\Users\hp\Downloads\platform-tools-latest-windows\platform-tools;C:\Users\hp\AppData\Roaming\npm;C:\Program Files\Java\jdk-22\bin;C:\Users\hp\Downloads\apache-maven-4.0.0-rc-3\bin;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="22.0.2+9-70"/>
+    <property name="maven.installation.settings" value="C:\Users\hp\Downloads\apache-maven-4.0.0-rc-3/conf/settings.xml"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="maven.user.settings" value="C:\Users\hp/.m2/settings.xml"/>
+    <property name="java.class.version" value="66.0"/>
+  </properties>
+  <testcase name="shouldAnswerWithTrue" classname="com.example.monproje.AppTest" time="0.06"/>
+</testsuite>

@@ -1,0 +1,30 @@
+name: CI/CD Pipeline with Nexus
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Setup JDK
+        uses: actions/setup-java@v3
+        with:
+          distribution: 'temurin'
+          java-version: '11'
+
+      - name: Configure Maven settings
+        run: |
+          mkdir -p ~/.m2
+          echo "<settings><servers><server><id>nexus</id><username>${{ secrets.NEXUS_USER }}</username><password>${{ secrets.NEXUS_PASS }}</password></server></servers></settings>" > ~/.m2/settings.xml
+
+      - name: Build and test
+        run: mvn clean package
+
+      - name: Deploy artifact to Nexus
+        run: mvn deploy -DrepositoryId=nexus -Durl=http://localhost:8081/repository/maven-releases/
